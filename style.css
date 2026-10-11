@@ -23,9 +23,10 @@
     min-height: 320px;
   }
 
-  .product-image {
-    width: 100%;
-    max-width: 400px;
-    max-height: 320px;
-  }
+ .product-image {
+  width: min(120%, 700px);
+  max-height: 520px;
+  height: auto;
+  object-fit: contain;
+}
 }
