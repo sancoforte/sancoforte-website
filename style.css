@@ -11,9 +11,9 @@
   display: block;
   position: relative;
   z-index: 1;
-  width: min(100%, 520px);
+  width: min(100%, 650px);
+  max-height: 480px;
   height: auto;
-  max-height: 390px;
   object-fit: contain;
   filter: drop-shadow(0 20px 25px rgba(45, 22, 79, 0.12));
 }
